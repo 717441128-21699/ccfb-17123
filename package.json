@@ -1,0 +1,22 @@
+{
+  "name": "bamboo-grove-recon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "手机环拍视频重建竹林并按笛子调门选竹的 Web 应用（WebGPU + Web Worker + TypeScript）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@webgpu/types": "^0.1.74",
+    "playwright": "^1.65.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
